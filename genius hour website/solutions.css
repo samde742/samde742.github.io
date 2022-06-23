@@ -120,3 +120,8 @@ img {
     border-radius: 50px 50px 50px 50px;
     margin-bottom: 30px
 }
+
+li {
+    font-size: 15px;
+    font-family: "Kdam Thmor Pro"
+}
