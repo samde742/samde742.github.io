@@ -1,0 +1,84 @@
+body {
+  background: url("https://cutewallpaper.org/21/dark-geometric-wallpaper/Dark-Green-Simple-Geometry-Background-1920x1080-.jpg");
+  background-size: cover;
+}
+
+.swiper {
+  background: url("https://pbs.twimg.com/media/Ff2SoEpWAAEvdXY?format=jpg&name=4096x4096");
+  background-size: cover;
+  border: 2px solid black;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: black;
+}
+
+header {
+  width: 100%;
+}
+header h1 {
+  font-size: 100px;
+  font-family: "Trebuchet MS";
+  color: rgba(255, 255, 255, 0.753);
+  text-align: center;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 75px;
+  padding-bottom: 10px;
+  width: 85%;
+  margin: auto;
+}
+
+.info-box {
+  flex-basis: 40%;
+  height: 80vh;
+}
+.info-box h1 {
+  font-family: "Trebuchet MS";
+  font-size: 30px;
+  text-align: center;
+  color: rgb(67, 69, 105);
+  padding-top: 140px;
+}
+.info-box p {
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+  text-align: center;
+  color: rgb(67, 69, 105);
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 70px;
+  transition: linear 0.5s;
+  background: rgb(68, 102, 165);
+  font-family: "Trebuchet MS";
+  border-radius: 25px 25px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.753);
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: black;
+  color: rgb(68, 102, 165);
+}
+
+.pic-box {
+  flex-basis: 60%;
+  height: 80vh;
+}
+.pic-box img {
+  border: 1px solid black;
+  margin: auto;
+  display: block;
+  opacity: 0.7;
+}/*# sourceMappingURL=style.css.map */
