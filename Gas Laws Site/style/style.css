@@ -7,19 +7,24 @@ body {
   background: url("https://pbs.twimg.com/media/Ff2SoEpWAAEvdXY?format=jpg&name=4096x4096");
   background-size: cover;
   border: 2px solid black;
+  margin-top: 5vh;
 }
 
 .swiper-button-prev, .swiper-button-next {
   color: black;
 }
 
-header {
-  width: 100%;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
-header h1 {
+
+h1 {
   font-size: 100px;
   font-family: "Trebuchet MS";
-  color: rgba(255, 255, 255, 0.753);
+  color: rgb(67, 69, 105);
   text-align: center;
 }
 

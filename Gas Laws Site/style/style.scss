@@ -15,6 +15,7 @@ body {
     background: url("https://pbs.twimg.com/media/Ff2SoEpWAAEvdXY?format=jpg&name=4096x4096");
     background-size: cover;
     border: 2px solid black;
+    margin-top: 5vh;
 }
 
 
@@ -22,16 +23,20 @@ body {
     color: black;
 }
 
-header {
-    width: 100%;
-
-    h1 {
-        font-size: 100px;
-        font-family: $font;
-        color: $white;
-        text-align: center;
-    }
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
+
+h1 {
+    font-size: 100px;
+    font-family: $font;
+    color: $textColor;
+    text-align: center;
+}
+
 
 .link-container {
     display: flex;
