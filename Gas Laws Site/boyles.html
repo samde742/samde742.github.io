@@ -5,8 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Boyles Law</title>
+    <link rel="stylesheet" href="style/laws.css">
 </head>
+
 <body>
-    
+
+    <script>
+        function moveObject(direction) {
+            var move = 5;
+            var top  = document.getElementsByClassName("container").offsetTop;
+            switch(direction) {
+                
+                case "down":
+                    var x = document.getElementById("presser").offsetTop;
+                    x+=move;
+                    if (x < 500) {
+                        document.getElementById("presser").style.top=x+"px";
+                        break;
+                    }
+
+                case "up":
+                    var x = document.getElementById("presser").offsetTop;
+                    x-=move;
+                    if (x > 170) {
+                        document.getElementById("presser").style.top=x+"px";
+                        break;
+                    }
+            }
+        }
+    </script>
+
+    <header>
+        <h1>Boyles Law</h1>
+    </header>
+
+    <div class="container">
+        <div class="explain">
+            <div>
+                <h2><b>Boyle's Law</b></h2>
+                <p><b>Boyles Law states as Pressure increases, volume decreases, and vise versa.</b></p>
+
+                <h2><b>KMT Relation</b></h2>
+                <p><b>??/</b></p>
+            </div>
+
+            <div class="btns">
+
+                <div class="back">
+                    <a href="index.html">
+                        <button>Back</button>
+                    </a>
+                </div>
+
+                <div class="up-down">
+                    <div class="up">
+                        <button id="up" name="up" onClick="moveObject('up')" class="move-up">/\</button>
+                    </div>
+
+                    <div class="down">
+                        <button id="down" name="down" onClick="moveObject('down')" class="move-down">\/</button>
+                    </div>
+                </div>
+                <div class="revert">
+                    <div class="reset">
+                        <a href="boyles.html">
+                            <button id="reset" name="reset" class="reset-btn">Reset</button>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </div>
+
+        <div class="model">
+            <img src="press.png" alt="press" class="press" id="presser">
+        </div>
+
+    </div>
+
+
+
+
 </body>
 </html>

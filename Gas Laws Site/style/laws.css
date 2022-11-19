@@ -1,0 +1,114 @@
+body {
+  background: url("https://cutewallpaper.org/21/dark-geometric-wallpaper/Dark-Green-Simple-Geometry-Background-1920x1080-.jpg");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  background: url("https://pbs.twimg.com/media/Ff2SoEpWAAEvdXY?format=jpg&name=4096x4096");
+  background-size: cover;
+  width: 90%;
+  height: 70vh;
+  border: 1px solid white;
+  margin: auto;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+}
+header h1 {
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+  font-family: "Trebuchet MS";
+  font-size: 70px;
+  color: rgba(255, 255, 255, 0.753);
+}
+
+.explain {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  border: 1px solid black;
+}
+.explain h2 {
+  margin: auto;
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: 30px;
+  color: rgb(67, 69, 105);
+  padding: 10px;
+}
+.explain p {
+  margin: auto;
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+  color: rgb(67, 69, 105);
+  margin-bottom: 10vh;
+}
+
+.model {
+  width: 25%;
+  border: 1px solid white;
+  background-color: #002c5e;
+}
+
+.btns {
+  display: flex;
+}
+
+.up-down {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+}
+.up-down .down {
+  padding-bottom: 10px;
+}
+
+.revert, .back {
+  width: 33.3%;
+}
+.revert button, .back button {
+  margin-top: 5vh;
+}
+
+button {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 70px;
+  transition: linear 0.5s;
+  background: rgb(68, 102, 165);
+  font-family: "Trebuchet MS";
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.753);
+  border: 2px solid black;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.press {
+  width: 22.25vw;
+  height: 20vh;
+  position: absolute;
+  top: 22vh;
+}
+
+.move-up {
+  border-radius: 25px 25px 0px 0px;
+}
+
+.move-down {
+  border-radius: 0px 0px 25px 25px;
+}
+
+.reset a, .back a {
+  text-decoration: none;
+  font-family: "Trebuchet MS";
+  color: rgba(255, 255, 255, 0.753);
+}/*# sourceMappingURL=laws.css.map */

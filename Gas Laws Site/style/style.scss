@@ -87,8 +87,7 @@ a {
 }
 
 .btn:hover {
-    background: black;
-    color: $btnColor;
+    background: $black;
 }
 
 
@@ -102,6 +101,7 @@ a {
         margin: auto;
         display: block;
         opacity: 0.7;
+        
     }
 
 }
