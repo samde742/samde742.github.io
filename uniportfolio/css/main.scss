@@ -1,0 +1,37 @@
+
+@import "./variables";
+@import "header.css";
+
+.intro {
+    flex-direction: column;
+    display: flex;
+    margin-left: 4vw;
+    width: $introW;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.desc {
+    align-content: center;
+    justify-content: center;
+
+    h1 {
+        font-family: $font;
+        font-size: 50px;
+        color: $color4;
+        width: $introW;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-family: $font;
+        font-size: 20px;
+        color: $color42;
+        width: $introW;
+        margin-left: 1vw;
+    }
+}
+
+

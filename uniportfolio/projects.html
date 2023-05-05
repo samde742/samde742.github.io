@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+</head>
+
+<link rel="stylesheet" href="css/proj.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet'>
+<body>
+    
+
+    <main class="layout">
+        <header class="header">
+            <div class="pic">
+                <img src="pic/me.png" class="cirimg">
+            </div>
+            <div class="info">
+                <h1>Sam Deitz</h1>
+                <h3>Some subheader text</h3>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html" class="active">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Hobbies</a>
+                    </li>
+                    <li>
+                        <a href="#">Education</a>
+                    </li>
+                    <li>
+                        <a href="#">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="projects">
+
+            <header class="title">
+                <h1><i>Projects</i></h1>
+            </header>
+
+            <div class="proj-container">
+                
+                <aside class="proj">
+                    <img src="pic/door.png" alt="pic/person.png" id="TextAdventure">
+                    <article class="desc">
+                        <h1>Text Adventure Game</h1>
+                        <h3>A game based around text written in java, you choose your path and try to aquire all the keys to escape</h3>
+                    </article>
+                    <!-- <form method="get" action="pic/door.png">
+                        <button type="submit">Download <i class='bx bx-download'></i></button>
+                    </form> -->
+                    <!-- DOWNLOAD -->
+                    <!-- <button><a href="pic/door.png" download>Download <i class='bx bx-download'></a></i></button> -->
+                    <button type="button" data-download="TextAdventure">Download <i class='bx bx-download'></i></button>
+
+                </aside>
+
+            </div>
+
+        </section>
+        
+
+    </main>
+
+    <script>
+        const downloadLinks = document.querySelectorAll("[data-download]");
+
+        downloadLinks.forEach(button =>{
+            const id = button.dataset.download;
+            const file = document.getElementById(id);
+            const a = document.createElement("a");
+
+            a.href = file.alt;
+            a.download = "";
+            a.style.display = "none";
+
+            button.addEventListener("click", () => {
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+            });
+        });
+    </script>
+
+
+</body>
+</html>

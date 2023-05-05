@@ -1,0 +1,62 @@
+@import "header.css";
+.projects {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.projects header {
+  font-size: 35px;
+  font-family: "Poiret One";
+  text-align: center;
+  color: #4B6587;
+  letter-spacing: 3px;
+}
+.projects .proj-container {
+  display: flex;
+  flex-direction: row;
+  width: 75vw;
+  align-items: center;
+  justify-content: center;
+}
+.projects .proj-container .proj {
+  width: 18.5vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #C8C6C6;
+  box-shadow: 0 0 3px #C8C6C6;
+}
+.projects .proj-container .proj img {
+  width: 18.5vw;
+  height: 25vh;
+}
+.projects .proj-container .proj .desc {
+  width: 17.5vw;
+  height: 20vh;
+  padding: 1vh;
+  box-shadow: 0 0 3px #C8C6C6;
+}
+.projects .proj-container .proj .desc h1 {
+  font-size: 23px;
+  font-family: "Poiret One";
+  color: #4B6587;
+  display: block;
+  margin: auto;
+  height: 2vh;
+}
+.projects .proj-container .proj .desc h3 {
+  font-size: 16px;
+  font-family: "Poiret One";
+  color: #4B6587;
+  height: 8vh;
+}
+.projects .proj-container .proj button {
+  border: none;
+  margin: auto;
+  border-radius: 0px 0px 0px 0px;
+  height: 5vh;
+  width: 18.5vw;
+}/*# sourceMappingURL=proj.css.map */
