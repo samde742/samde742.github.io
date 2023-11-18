@@ -1,0 +1,57 @@
+.about {
+    padding-top: 25vh;
+    height: 40vh;
+    border-radius: 15px; 
+  
+    margin-left: 10vw;
+    margin-right: 10vw;
+  
+    display: grid;
+    grid-template-rows: 10vh 1fr;
+    grid-template-columns: 30% 1fr;
+  }
+
+  .about-title p, .about-me-intro p,
+  .about-me p {
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .about-title {
+
+    letter-spacing: 2px;
+    grid-area: 1 / 1 / 1 / 3;
+  }
+  
+  .about-title p {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    color: #869ba9;
+  }
+  
+  .about-me-intro {
+    margin-bottom: auto;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 1vw;
+    border-radius: 0 0 0 15px;
+  }
+
+  .about-me-intro p {
+    color: #869ba9;
+  }
+  
+  .about-me {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 1vw;
+    padding-right: 12vw;
+  }
+
+  .about-me p {
+    color: #869ba9;
+
+  }

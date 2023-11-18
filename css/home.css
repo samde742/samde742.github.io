@@ -1,0 +1,74 @@
+.main {
+    display:grid;
+    row-gap: 40vh;
+  }
+  
+  
+  .home {
+    display: grid;
+    padding-top: 20vh;
+  }
+  
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 40vh;
+    width: 90vw;
+    padding-left: 2vw;
+  }
+  
+  
+  .me {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+  }
+  
+  .desc {
+    display:flex;
+    flex-direction: column;
+    height: 40vh;
+    margin-left:1vw;
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  .name {
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+    text-shadow: 2px 2px 2px black;
+    color: #869ba9;
+    margin-top: auto;
+  }
+  
+  .name-desc {
+    margin: 0;
+    font-size: 35px;
+    font-family: "Dosis", sans-serif;
+    color: #869ba9;
+  }
+  
+  .line {
+    grid-area: 2 / 1 / 2 / 3;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+  
+  .line hr {
+    border: 3px solid #869ba9;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px black;
+  }
+
+  @media only screen and (max-width: 650px) {
+    .intro {
+      height: 55vh;
+    }
+    .name {
+      margin-top: 1vh;
+    }
+  }

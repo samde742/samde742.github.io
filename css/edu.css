@@ -1,0 +1,56 @@
+.education {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+
+    height: 40vh;
+
+}
+
+.exp-cell {
+    width: 280px;
+    line-height: 4vh;
+    height: 32vh;
+
+    box-shadow: 3px 3px 5px black;
+    border-radius: 5px;
+
+    transition: linear 0.25s;
+}
+
+.exp-cell:hover {
+    height: 36vh;
+    width: 320px; 
+}
+.exp-cell:hover .exp-desc {
+    font-size: 18px;
+}
+.exp-cell:hover .exp-title {
+    font-size: 21px;
+}
+
+.exp-title, .exp-desc {
+    font-family: "Dosis", sans-serif;
+
+    padding-top: 1vh;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin: 0px;
+    letter-spacing: 1px;
+}
+
+.exp-title {
+    color: #869ba9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    transition: linear 0.2s
+}
+
+.exp-desc {
+    color: #869ba9;
+    font-size: 15px;
+    transition: linear 0.2s
+}
+

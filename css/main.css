@@ -1,0 +1,58 @@
+@import "header.css";
+@import "home.css";
+@import "about.css";
+@import "projects.css";
+@import "edu.css";
+
+body {
+  background-image: url("backgroundtext2.png");
+  background-size: cover;
+  margin: 0px;
+  padding-top: 5vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  padding-bottom: 40vh;
+  background-color: #0A1828;
+}
+
+.socials {
+  position: fixed;
+  width: 50px;
+  height: 200px;  
+  left: 10px;
+  top: 260px;
+  animation: moveright 1s linear 1s;
+}
+
+@keyframes moveright {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.socials img {
+  width: 52px;
+  height: 52px;
+  transition: linear 0.1s;
+  border: 2px solid white;
+}
+
+.socials img:hover {
+  width: 60px;
+  height: 60px;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-family: "poppins", sans-serif;
+}
