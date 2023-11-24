@@ -7,14 +7,14 @@
   .home {
     display: grid;
     padding-top: 20vh;
+    width: 60vw;
+    margin: auto;
   }
   
   .intro {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
     height: 40vh;
-    width: 90vw;
     padding-left: 2vw;
   }
   
@@ -24,6 +24,7 @@
     height: 300px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px black;
+    object-fit: cover;
   }
   
   .desc {
@@ -41,7 +42,7 @@
     font-weight: bold;
     font-family: "Dosis", sans-serif;
     text-shadow: 2px 2px 2px black;
-    color: #869ba9;
+    color: #BFA181;
     margin-top: auto;
   }
   
@@ -49,7 +50,7 @@
     margin: 0;
     font-size: 35px;
     font-family: "Dosis", sans-serif;
-    color: #869ba9;
+    color: #BFA181;
   }
   
   .line {
@@ -59,7 +60,7 @@
   }
   
   .line hr {
-    border: 3px solid #869ba9;
+    border: 1px solid #BFA181;
     border-radius: 2px;
     box-shadow: 1px 1px 2px black;
   }
