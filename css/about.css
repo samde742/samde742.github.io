@@ -52,6 +52,13 @@
   width: 280px;
 }
 
+@media only screen and (max-width: 1450px) {
+  .abt-info {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
 /* .about {
     padding-top: 25vh;
     height: 40vh;
@@ -108,3 +115,5 @@
   .about-me p {
     color: #BFA181;
   } */
+
+
