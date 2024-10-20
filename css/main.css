@@ -34,15 +34,15 @@ body {
 }
 
 .socials img {
-  width: 4vw;
-  height: 4vw;
+  width: 52px;
+  height: 52px;
   transition: linear 0.1s;
   border: 2px solid white;
 }
 
 .socials img:hover {
-  width: 5vw;
-  height: 5vw;
+  width: 60px;
+  height: 60px;
 }
 
 html::-webkit-scrollbar {

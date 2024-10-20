@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
 </head>
-
-
 <link rel="stylesheet" href="css/main.css">
 <link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet'>
 
@@ -19,6 +17,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/x-icon" href="pic/favicon_io/sd.ico">
 
 <body>
 
@@ -32,8 +32,8 @@
         <a href="https://mail.google.com/mail/u/5/#inbox?compose=jrjtXRHfnbFGbMrmmkTWbKFFlSwxTRwrZlCmwnvbsKLnHrfwHXtPmFkNvdTWtjWRCzPhrwQW" target="_blank">
             <img src="pic/gmail.png">
         </a>
-        <a href="https://www.linkedin.com/in/sam-deitz-80559a31a/" target="_blank">
-            <img src="pic/linkedin.png">
+        <a href="discordapp.com/users/399561613205831681" target="_blank">
+            <img src="pic/discord.png">
         </a>
     </div>
 
@@ -62,13 +62,14 @@
 
         <div class="home" id="home">
             <div class="intro">
-                <img class="me-img" src="pic/me.jpg">
-                
+                <img class="me" src="pic/me.png">
                 <div class="desc">
                     <p class="name">Sam Deitz</p>
                     <p class="name-desc">Aspiring CS Student</p>
                 </div>
             </div>
+
+
 
             <div class="line">
                 <hr class="separater">
@@ -76,7 +77,49 @@
         </div>
 
         <div class="about" id="about">
-            <div class="about-title">
+
+            <div class="abt-container">
+                <div class="abt-title">
+                    Everything About Me!
+                </div>
+                <div class="abt-info">
+                    <div class="abt-text">
+                        <p>
+                            Hey, I'm Sam, I am a grade 12 student looking to go to university
+                            for computer science to expand my skillset for future jobs.
+                             A few years ago, I got introduced to Python, my friend and I 
+                             downloaded a book to learn from, since then I have been in love 
+                             with programming. From there I began to do CCC problems and expand
+                             my skill, and later being taught Java in my classes and learning C++
+                             on my own. From there I used my skills to make projects, some for school,
+                             some because I felt like making something and refining my skills, but
+                             all primarily in Java.
+                             I love to code, and learn new concepts as I do it, which is 
+                             why I chose computer science as my future.
+                        </p>
+                    </div>
+                    <div class="abt-pic">
+                        <img src="pic/us.png">
+                    </div>
+                    <div class="abt-text">
+                        <p>
+                            Computer science isn't my only interest. I have a very loving girlfriend
+                            who shares my love of computern science. I love to snowboard in the winter,
+                            and I love to go to the gym and improve myself and keep active.
+                            I have been going to the gym for about half a year now and I have seen
+                            amazing progress in my phyisque and my strength as a result of it.
+                            Apart from that I have a part time job as a dishwasher at a local restaurant,
+                            I've been working there since August of 2022 and learned a lot on the way.
+                            I've built relationships with people and learned what it's like to have a job
+                            and be relied on. 
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            
+            <!-- <div class="about-title">
                 <p>About Me!</p>
             </div>
             <div class="about-me-intro">
@@ -84,10 +127,10 @@
             </div>
             <div class="about-me">
                 <p>
-                    Hey I'm Sam, an ambitious high school student currently finishing my grade 12
+                    Hey I'm Sam, an abmitious high school student currently finishing my grade 12
                     year at London Central Secondary School!
                 </p>
-            </div>
+            </div> -->
         </div>
 
         <div class="projects" id="projects">
@@ -98,7 +141,7 @@
             </div>
             <div class="text">
                 <p class="proj-name">Escape the Dungeon<br>Text Adventure</p>
-                <img id="cell" class="text-cell" src="pic/door.jpg">
+                <img id="cell" class="text-cell" src="pic/door.png">
                 <a href="https://github.com/samde742/riddlegame.git" target="_blank"><img class="download" src="pic/github2.jpg"></a>
             </div>
             <div class="loading">
@@ -108,27 +151,23 @@
             </div>
             <div class="rush-hour">
                 <p class="proj-name">Rush Hour Replica</p>
-                <img id="cell" class="rh-cell" src="pic/rush.png">
+                <img id="cell" class="rh-cell" src="pic/rushhour.png">
                 <a href="https://github.com/samde742/rushhour.git" target="_blank"><img class="download" src="pic/github2.jpg"></a>
             </div>
-            <div class="rush-hour">
+            <div class="pong">
                 <p class="proj-name">Pong Replica</p>
                 <img id="cell" class="proj" src="pic/pong.png">
                 <a href="https://github.com/samde742/pong" target="_blank"><img class="download" src="pic/github2.jpg"></a>
             </div>
 
+            <div class="dont-die">
+                <p class="proj-name">Don't Die</p>
+                <img id="cell" class="proj" src="pic/dontdie.png">
+                <a href="https://github.com/tetearie054/DontDie" target="_blank"><img class="download" src="pic/github2.jpg"></a>
+            </div>
         </div>
 
         <div class="education" id="edu">
-            <div class="exp-cell">
-                <p class="exp-title">University of Western Ontario</p>
-                <p class="exp-desc">
-                    I am attending Western 
-                    University for Computer Science.
-                    Currently a first year, expected
-                    to graduate in 2028.
-                </p>
-            </div>
             <div class="exp-cell">
                 <p class="exp-title">London Central Secondary School</p>
                 <p class="exp-desc">
@@ -163,10 +202,13 @@
                 </p>
             </div>
             <div class="exp-cell">
-                <p class="exp-title"></p>
-                <p class="exp-desc"></p>
+                <p class="exp-title">COMC Math Contest</p>
+                <p class="exp-desc">I took the Canadian Open Math Contest in my grade 12 year.</p>
             </div>
-            
+            <div class="exp-cell">
+                <p class="exp-title">CCC Waterloo CS Contest</p>
+                <p class="exp-desc">I took the senior Canadian Computing Compteition in my grade 11, and 12 year</p>
+            </div>
         </div>
     </div>
 
