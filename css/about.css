@@ -1,65 +1,4 @@
-
 .about {
-  padding-top: 20vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
-
-.about img {
-  width: 100%;
-  height: 60vh;
-  border-radius: 50px 0 50px 0;
-  border: 5px solid #BFA181;
-  object-fit: cover;
-}
-
-.abt-container {
-  display: grid;
-  row-gap: 40px;
-}
-
-.abt-title {
-  grid-area: 1 / 1 / 1 / 1;
-  word-wrap: break-word;
-
-  text-align: center;
-  font-family: 'Dosis';
-  font-size: 48px;
-  letter-spacing: 2px;
-  color: #BFA181;
-  font-weight: bold;
-  text-shadow: 2px 2px 2px black;
-}
-
-.abt-info {
-  grid-area: 2 / 1 / 2 / 1;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  color: #BFA181;
-  text-shadow: 2px 2px 2px black;
-}
-
-
-
-.abt-text {
-  width: 350px;
-  padding-left: 17px;
-  text-indent: 20px;
-}
-
-.abt-pic {
-  width: 280px;
-}
-
-@media only screen and (max-width: 1450px) {
-  .abt-info {
-    flex-direction: column;
-    align-content: center;
-  }
-}
-
-/* .about {
     padding-top: 25vh;
     height: 40vh;
     border-radius: 15px; 
@@ -70,9 +9,9 @@
     display: grid;
     grid-template-rows: 10vh 1fr;
     grid-template-columns: 30% 1fr;
-  } */
+  }
 
-  /* .about-title p, .about-me-intro p,
+  .about-title p, .about-me-intro p,
   .about-me p {
     font-family: "Dosis", sans-serif;
   }
@@ -89,7 +28,7 @@
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 7px;
-    color: #BFA181;
+    color: #869ba9;
   }
   
   .about-me-intro {
@@ -102,7 +41,7 @@
   }
 
   .about-me-intro p {
-    color: #BFA181;
+    color: #869ba9;
   }
   
   .about-me {
@@ -113,7 +52,6 @@
   }
 
   .about-me p {
-    color: #BFA181;
-  } */
+    color: #869ba9;
 
-
+  }

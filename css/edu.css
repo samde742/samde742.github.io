@@ -1,7 +1,7 @@
 .education {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
     row-gap: 20px;
     height: 40vh;
 
@@ -10,9 +10,9 @@
 .exp-cell {
     width: 280px;
     line-height: 4vh;
-    height: 30vh;
-    margin-right:1vw;
+    height: 32vh;
 
+    margin: auto;
 
     box-shadow: 3px 3px 5px black;
     border-radius: 5px;
@@ -21,7 +21,7 @@
 }
 
 .exp-cell:hover {
-    height: 34vh;
+    height: 36vh;
     width: 320px; 
 }
 .exp-cell:hover .exp-desc {
@@ -42,7 +42,7 @@
 }
 
 .exp-title {
-    color: #BFA181;
+    color: #869ba9;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
@@ -50,7 +50,8 @@
 }
 
 .exp-desc {
-    color: #BFA181;
+    color: #869ba9;
     font-size: 15px;
     transition: linear 0.2s
 }
+
