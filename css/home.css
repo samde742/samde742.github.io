@@ -1,38 +1,40 @@
 .main {
-    display:grid;
+    display:flex;
+    flex-direction: column;
     row-gap: 40vh;
+    width: 85%;
+    margin: auto;
   }
   
   
   .home {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     padding-top: 20vh;
-    width: 60vw;
-    margin: auto;
   }
   
   .intro {
     display: flex;
-    flex-wrap: wrap;
-    height: 40vh;
-    padding-left: 2vw;
+    flex-flow: row wrap;
+    padding-left: 5vw;
   }
   
   
-  .me {
+
+  .me-img {
     width: 300px;
     height: 300px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px black;
-    object-fit: cover;
+    align-self: flex-end;
   }
   
   .desc {
     display:flex;
     flex-direction: column;
-    height: 40vh;
-    margin-left:2vw;
+    margin-left:1vw;
     text-shadow: 2px 2px 2px black;
+
   }
   
   .name {
@@ -42,34 +44,38 @@
     font-weight: bold;
     font-family: "Dosis", sans-serif;
     text-shadow: 2px 2px 2px black;
-    color: #BFA181;
+    color: #869ba9;
     margin-top: auto;
+
+
   }
   
   .name-desc {
     margin: 0;
     font-size: 35px;
     font-family: "Dosis", sans-serif;
-    color: #BFA181;
+    color: #869ba9;
+
   }
   
   .line {
     grid-area: 2 / 1 / 2 / 3;
     padding-top: 3vh;
     padding-bottom: 3vh;
+
   }
   
   .line hr {
-    border: 1px solid #BFA181;
+    border: 3px solid #869ba9;
     border-radius: 2px;
     box-shadow: 1px 1px 2px black;
   }
 
-  @media only screen and (max-width: 1000px) {
+  /* @media only screen and (max-width: 650px) {
     .intro {
       height: 55vh;
     }
     .name {
       margin-top: 1vh;
     }
-  }
+  } */

@@ -1,13 +1,29 @@
 
 
+.project-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-title {
+    text-align: center;
+    font-family: 'Dosis';
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: #BFA181;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+
 .projects {
     display: flex;
     flex-flow: row wrap;
     row-gap: 3vh;
-    padding-top: 12vh; 
+    padding-top: 5vh; 
 
     align-content: flex-start;
-    justify-content: center;
+    justify-content: space-between;
 
     margin-left: 6vw;
     margin-right: 6vw;
@@ -24,10 +40,9 @@
 .projects div {
     position: relative;
     height: 40vh;
-    width: 300px;
+    width: 40vh;
     box-shadow: 2px 2px 4px #869ba9;
     border-radius: 20px;
-    margin-right:1vw;
 }
 
 
@@ -77,3 +92,9 @@
     height: 55px;
     background-color: rgb(136, 127, 127);
 }
+
+@media only screen and (max-width: 750px) {
+    .projects {
+        justify-content: center;
+    }
+  }
